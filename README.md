@@ -4,7 +4,7 @@
 This project was primarily worked on in google colab, but also some amount in jupyter notebooks. The two models as well as the randomly generated embeddings were produced in the colab file which has the name "585-project-code". If you are to open that file you will be greeted with a command to mount to a google drive. If you wish to use google drive to analyze this data, change the filepath to the drive you wish to work in. 
 
 ## Privacy Statement
-We used real resumes from a recent hackathon at our school. These resumes were given to us with the assumption that we will anonymize the data to the best of our ability and keep the main files private. Unfortunately this means that our annotated data is not viewable on GitHub.
+We used real resumes from a recent hackathon at our school. These resumes were given to us with the condition that we will anonymize the data to the best of our ability and keep the main files private. Unfortunately this means that our annotated data is not viewable on GitHub.
 ## Setting up
   ### Changing important filepaths
 - The ls check of file path
