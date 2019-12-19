@@ -25,3 +25,6 @@ Both the 585-project-code as well as the Naive Bayes classifier code are designe
 - Gradient Boost Classifier
 - Random Forest Classifier
 - Multilayer Perceptron Model Classifier
+Use the parameters dictionaries to declare your special parameters for the problem.
+
+After you are finished with the GloVe embedding data, you can move on to ELMo! This part of the code starts out with a set of installations and imports to prepare the AllenNLP library's ELMo model to run. Here again we need to process the data. This part can be more or less ignored unless you want to change how you work with the ELMo vector output. Currently the implementation is set to take the mean of the output vector until it is the shape (1024,). This is usually not desirable for successful implementations of the model, but due to issues talked about in our paper we ended up using this method for our implementation. Similarly to the GloVe embeddings, you can tune the hyperparameters in the same fashion for ELMo.
